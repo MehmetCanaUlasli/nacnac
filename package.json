@@ -1,0 +1,15 @@
+{
+  "name": "app2",
+  "version": "1.0.0",
+  "description": "<html>\r <head> <title>Özür Dilerim </title> <meta charset=\"utf-8\"> </head>\r <style>\r \tbody\r \t{\r \t\tbackground-image: url(\"backround.png\");\r \t\tbackground-color: #cccccc;\r \t}\r \th1\r \t{\r \t\tcolor:white;\r \t}\r </style>\r <body>\r \t<br> <br> <br>\r \t<iframe src=\"1.mp3\" autoplay=\"autoplay\">Bu görünüyorsa şarkı çalmamış demektir. Normalde 'Kol Düğmeleri' şarkısı çalmalıydı. :(\t</iframe>\r \t<center><h1 id='sorry'>Çok düşüncesisiz konuşmuşum gece gönderdiğim Mors kodunda.Bazen çok kötü hissediyorum ama seni üzmeye hakkım yoktu.Gerçekten çok özür dilerim.  Şifreleme çok basit olmuş yani annenin de Morse kodunu çözme olasılığı düşündüğümden yüksekmiş. Umarım seni zor durumda bırakmamışımdır. Çok özür dilerim kalbini kırdığım için. Hadi bak benimle barışırsan en sevdiğim sayının ne anlama geldiğini söylerim. Gece mantıklı düşünememiştim seni incittiğimi sabah anlayabildim :(</h1></center>\r \t<small><p>Merak ettiysen HTML CSS JS NodeJs kullanarak tasarladım. İstersen bende bir kitabı olacaktı, sana verebilirim. Ağır bir şey değil bilgisayarında sağ tıklayıp metin belgesi oluşturup oradan çalışabilirsin</p><small>\r \t<form method=\"get\" action=\"./send\">\r \t<table>\r \t\t<tr> <textarea name=\"text\"  rows=5 cols=40 required> Umarım iyisindir.Bana küstün mü, kırıldın mı? Bunu hazırladığım için daha fazla mı kızdın,biraz sevindin mi? Beni affettin mi? Eklemek istediğin bir şey var mı?  </textarea> </td> <td><input type=\"submit\" value=\"Gönder\"> </td> </tr>\r \t </table>\r  </form>\r \t<script>\r \t\tsetInterval(function()\r \t\t{\r \t\t\tdocument.getElementById('sorry').style.color=\"yellow\";\r \t\t\tsetTimeout(function(){},1000);\r \t\t\tdocument.getElementById('sorry').style.color=\"white\";\r \t\t},3000);\r \t\tsetTimeout(function(){},1000);\r \t\tsetInterval(function()\r \t\t{\r \t\t\tdocument.getElementById('sorry').style.color=\"white\";\r \t\t\tsetTimeout(function(){},1000);\r \t\t\tdocument.getElementById('sorry').style.color=\"yellow\";\r \t\t},2000);",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

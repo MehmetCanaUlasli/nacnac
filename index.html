@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Please Try </title>
+	<style>
+		body
+		{
+			background-image: url("2.jpeg");
+			
+		}
+		
+	 </style>
+ </head>
+<body>
+	<table> 
+	<tr> <td>
+	<p>Şifreyi girin(Telefon Şifresi) (4194..): </p>
+	</td>
+	<td> <form id="frm1">
+		  <input type="text" name="fname" value="41947">
+		</form> 
+	</td>
+	</tr>
+	<tr> <td></td> <td> <button onclick='check()'>Kontrol</button></td></tr>
+	</table>
+	
+	<a href="" id ="myAnchor"></a>
+	<script>
+		
+		var check = function()
+		{
+			var x = document.forms["frm1"];
+			var text = "";
+			text += x.elements[0].value;
+			//var text= document.getElementById('key').innerHTML;
+			if(text=="4194758937600")
+			{
+				document.getElementById("myAnchor").href = "readMe.html";
+				document.getElementById('myAnchor').innerHTML="Lütfen Tıklayın";
+			}
+			else
+			{
+				alert('Sen olduğunu onaylamak için lütfen o sayıyı gir: (Testte son sayfada mors kodu hali var)');
+			}
+			//alert(text);
+			
+		}
+	</script>
+	
+		
+	
+ </body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+<head> <title>Özür Dilerim </title> <meta charset="utf-8"> </head>
+<style>
+	body
+	{
+		background-image: url("backround.png");
+		background-color: #cccccc;
+	}
+	h1
+	{
+		color:white;
+	}
+</style>
+<body>
+	<br> <br> <br>
+	<iframe src="1.mp3" autoplay="autoplay">Bu görünüyorsa şarkı çalmamış demektir. Normalde 'Kol Düğmeleri' şarkısı çalmalıydı. :(	</iframe>
+	<center><h1 id='sorry'>Çok düşüncesisiz konuşmuşum gece gönderdiğim Mors kodunda.Bazen çok kötü hissediyorum ama seni üzmeye hakkım yoktu.Gerçekten çok özür dilerim.  Şifreleme çok basit olmuş yani annenin de Morse kodunu çözme olasılığı düşündüğümden yüksekmiş. Umarım seni zor durumda bırakmamışımdır. Çok özür dilerim kalbini kırdığım için. Hadi bak benimle barışırsan en sevdiğim sayının ne anlama geldiğini söylerim. Gece mantıklı düşünememiştim seni incittiğimi sabah anlayabildim :(</h1></center>
+	<small><p>Merak ettiysen HTML CSS JS NodeJs kullanarak tasarladım. İstersen bende bir kitabı olacaktı, sana verebilirim. Ağır bir şey değil bilgisayarında sağ tıklayıp metin belgesi oluşturup oradan çalışabilirsin</p><small>
+	<form method="get" action="./send">
+	<table>
+		<tr> <textarea name="text"  rows=5 cols=40 required> Umarım iyisindir.Bana küstün mü, kırıldın mı? Bunu hazırladığım için daha fazla mı kızdın,biraz sevindin mi? Beni affettin mi? Eklemek istediğin bir şey var mı?  </textarea> </td> <td><input type="submit" value="Gönder"> </td> </tr>
+	 </table>
+ </form>
+	<script>
+		setInterval(function()
+		{
+			document.getElementById('sorry').style.color="yellow";
+			setTimeout(function(){},1000);
+			document.getElementById('sorry').style.color="white";
+		},3000);
+		setTimeout(function(){},1000);
+		setInterval(function()
+		{
+			document.getElementById('sorry').style.color="white";
+			setTimeout(function(){},1000);
+			document.getElementById('sorry').style.color="yellow";
+		},2000);
+
+	</script>
+<body>
+</html>
